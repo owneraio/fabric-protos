@@ -4,8 +4,8 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/hyperledger/fabric-protos-go/orderer/etcdraft";
-option java_package = "org.hyperledger.fabric.protos.orderer.etcdraft";
+option go_package = "github.com/owneraio/fabric-protos-go/orderer/etcdraft";
+option java_package = "org.owneraio.fabric.protos.orderer.etcdraft";
 
 package etcdraft;
 
