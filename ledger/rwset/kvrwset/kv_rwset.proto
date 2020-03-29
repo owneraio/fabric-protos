@@ -4,8 +4,8 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/owneraio/fabric-protos-go/ledger/rwset/kvrwset";
-option java_package = "org.owneraio.fabric.protos.ledger.rwset.kvrwset";
+option go_package = "github.com/hyperledger/fabric-protos-go/ledger/rwset/kvrwset";
+option java_package = "org.hyperledger.fabric.protos.ledger.rwset.kvrwset";
 
 package kvrwset;
 
