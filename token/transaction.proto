@@ -79,7 +79,8 @@ message TokenAction {
         // A signed transfer action
         SignedTransfer stransfer = 4;
 
-        //TODO: Need a signed redeem
+        // A redeem action
+        SignedTransfer sredeem = 5;
     }
 }
 
