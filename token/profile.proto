@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+package token;
+
+
+message ResourcePublic {
+    string ResourceID  = 1; //FinP2P resource id
+    string OrganizationID = 2; //Local organization id
+    bytes ResourceHash = 3;
+    bytes PublicKey = 4;
+}
