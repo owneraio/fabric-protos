@@ -120,6 +120,8 @@ message TransferSignature {
     // Nonce is a sufficientley long random value
     // used to ensure the request has enough entropy.
     bytes nonce = 3;
+
+    repeated bytes hashGroups = 4;
 }
 
 // Transfer specifies a transfer of one or more tokens
